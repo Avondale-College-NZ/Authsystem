@@ -20,6 +20,18 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Dota 2.jpg" />
+    <None Include="wwwroot\css\Jugger.jfif" />
+    <None Include="wwwroot\css\luna.jpg" />
+    <None Include="wwwroot\css\maiden.jpg" />
+    <None Include="wwwroot\css\Mirana.jpg" />
+  </ItemGroup>
+
 
 
 </Project>
