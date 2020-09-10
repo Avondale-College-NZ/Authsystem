@@ -27,6 +27,7 @@
   <ItemGroup>
     <None Include="wwwroot\css\Dota 2.jpg" />
     <None Include="wwwroot\css\Jugger.jfif" />
+    <None Include="wwwroot\css\LPL.png" />
     <None Include="wwwroot\css\luna.jpg" />
     <None Include="wwwroot\css\maiden.jpg" />
     <None Include="wwwroot\css\Mirana.jpg" />
