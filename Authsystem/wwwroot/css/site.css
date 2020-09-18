@@ -124,3 +124,19 @@ td{
 
     color:white;
 }
+
+.footer {
+    padding:0px;
+   
+}
+border-top footer text-muted:before {
+    clear: both;
+    display: block;
+    height: 120px;
+    min-height: 20px;
+
+}
+
+align-right{
+    float:right;
+}
