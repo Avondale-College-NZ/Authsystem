@@ -9,25 +9,20 @@
     }
 }
 
-   
-        <link rel="stylesheet" href="StyleSheet.css">
-    
 <h2>Manage your account</h2>
-<body style="    background-color: #B29E6D">
-    <div>
-        <h4>Change your account settings</h4>
-        <hr />
-        <div class="row">
-            <div class="col-md-3">
-                <partial name="_ManageNav" />
-            </div>
-            <div class="col-md-9">
-                @RenderBody()
-            </div>
+
+<div>
+    <h4>Change your account settings</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-3">
+            <partial name="_ManageNav" />
+        </div>
+        <div class="col-md-9">
+            @RenderBody()
         </div>
     </div>
-    </body>
-
+</div>
 
 @section Scripts {
     @RenderSection("Scripts", required: false)
