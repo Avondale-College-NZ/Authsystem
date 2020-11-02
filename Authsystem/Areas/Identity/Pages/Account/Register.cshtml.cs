@@ -72,6 +72,35 @@ namespace Authsystem.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "SteamId")]
+            public string SteamId { get; set; }
+
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "School")]
+            public string School { get; set; }
+
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "Team")]
+            public string Team { get; set; }
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "Teachers Email")]
+            public string TeachersEmail { get; set; }
+
+
+            [Required]
+            [DataType(DataType.Text)]
+            [Display(Name = "Rank")]
+            public string Rank { get; set; }
+
         }
 
         public async Task OnGetAsync(string returnUrl = null)

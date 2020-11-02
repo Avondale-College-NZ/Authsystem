@@ -140,3 +140,35 @@ border-top footer text-muted:before {
 align-right{
     float:right;
 }
+
+.b {
+    color: white;
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+
+.dottedbox {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family:"https://fonts.google.com/specimen/Noto+Sans+JP";
+
+}
+.u {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+.br {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+
+#body#_layout{
+    background-color:blue;
+}
+
+.li {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}

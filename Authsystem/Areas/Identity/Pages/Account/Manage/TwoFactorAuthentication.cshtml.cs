@@ -16,7 +16,6 @@ namespace Authsystem.Areas.Identity.Pages.Account.Manage
 
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly ILogger<TwoFactorAuthenticationModel> _logger;
 
         public TwoFactorAuthenticationModel(
             UserManager<ApplicationUser> userManager,
@@ -25,7 +24,7 @@ namespace Authsystem.Areas.Identity.Pages.Account.Manage
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _logger = logger;
+            Logger = logger;
         }
 
         public bool HasAuthenticator { get; set; }
@@ -39,6 +38,8 @@ namespace Authsystem.Areas.Identity.Pages.Account.Manage
 
         [TempData]
         public string StatusMessage { get; set; }
+
+        public ILogger<TwoFactorAuthenticationModel> Logger { get; }
 
         public async Task<IActionResult> OnGet()
         {
