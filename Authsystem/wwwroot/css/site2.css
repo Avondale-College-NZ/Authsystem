@@ -1,0 +1,28 @@
+﻿
+body {
+}
+
+p3 {
+    font: import url("https://fonts.google.com/specimen/Noto+Sans+JP");
+    color: white;
+}
+
+p1 {
+    color: white;
+    font: ("https://fonts.google.com/specimen/Noto+Sans+JP");
+}
+td{
+    color:white;
+}
+
+align-right {
+    float: right;
+}
+
+.b {
+    color: white;
+}
+
+.dottedbox {
+    color: white;
+}

@@ -5,12 +5,14 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color:blue;
 }
 
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
+
 
 .btn-primary {
   color: #fff;
@@ -19,7 +21,6 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -59,9 +60,11 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  font-family:"Roboto", sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: "Roboto", sans-serif;
+    background-color:red;
+    
 }
 .footer {
   position: absolute;
@@ -101,4 +104,71 @@ div.card-content {
 /*login form*/
 div.login-form-icon {
     text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+p3 {
+    color: white;
+    font:"https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+p1 {
+    color: white;
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+td{
+
+    color:white;
+}
+
+.footer {
+    padding:0px;
+   
+}
+border-top footer text-muted:before {
+    clear: both;
+    display: block;
+    height: 120px;
+    min-height: 20px;
+
+}
+
+align-right{
+    float:right;
+}
+
+.b {
+    color: white;
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+
+.dottedbox {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family:"https://fonts.google.com/specimen/Noto+Sans+JP";
+
+}
+.u {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+.br {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
+}
+
+
+#body#_layout{
+    background-color:blue;
+}
+
+.li {
+    font: "https://fonts.google.com/specimen/Noto+Sans+JP";
+    font-family: "https://fonts.google.com/specimen/Noto+Sans+JP";
 }

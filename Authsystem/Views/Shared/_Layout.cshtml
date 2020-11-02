@@ -3,20 +3,21 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Authsystem</title>
+    <title>@ViewData["Title"] - Let's Play Live </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link href-" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Noto+Sans+JP" rel="stylesheet">
     <link href-" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
-    "
+  
 </head>
-<body>
+<body >
+   
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Authsystem</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> <img style="" width="50" src="~/css/lpl green.png" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,12 +29,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About Us">About Us</a>
-                            <li class="nav-item">
-                                </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Aboutus">About Us</a>
+                        <li class="nav-item">
+                        </li>
                         <li>
-                            <a class="nav-link text-dark" asp-area"" asp-controller="Home" asp-action="Dota">Dota</a>
-                              
+                            <a class="nav-link text-dark" href="https://www.dota2.com/play/">Dota 2</a>
+
+                            <link class="nav-item" />
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area"" asp-controller="Home" asp-action="RegisterForm">Tournament</a>
+
                             <link class="nav-item" />
                         </li>
                     </ul>
@@ -48,13 +54,39 @@
     </div>
 
     <footer class="border-top footer text-muted">
+
+      
         <div class="container">
-            &copy; 2020 - Authsystem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+            &copy; Lets Play Live Media Ltd. All rights reserved.- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a href="https://www.facebook.com/letsplaylivehq/"><img class="fa align-right"> <img src="~/css/facebook.png" /> </a>
+            <a href="https://twitter.com/LetsPlayLiveHQ"><img class="fa align-right"> <img src="~/css/twitter1.png" /></a>
+            <a href="https://www.youtube.com/channel/UCaQxBgRC76F_2sGQfp7vZvA"><img class="fa align-right"> <img src="~/css/youtube1.png" /></a>
+            <a href="https://discord.gg/qZaBYEM" <img class="fa align-right"> <img src="~/css/discordlol.png"/></a>
+            <a href="https://www.twitch.tv/team/letsplaylive" <img class="fa align-right">  <img src="~/css/twitchlol.png"/></a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </div>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+   @RenderSection("Scripts", required: false)
+    
+<style type="text/css">
+    body {
+        background-color: #D2B48C	 !important;
+        opacity:0.8;
+    }
+    h1
+    {color:white;
+
+    }
+    p{
+        color:white;
+        font-size:25px;
+    }
+   
+</style>
 </body>
 </html>
