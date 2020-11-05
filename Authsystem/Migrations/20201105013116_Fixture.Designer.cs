@@ -4,14 +4,16 @@ using Authsystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Authsystem.Migrations
 {
     [DbContext(typeof(AuthsystemDbContext))]
-    partial class AuthsystemDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201105013116_Fixture")]
+    partial class Fixture
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
